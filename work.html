@@ -23,39 +23,21 @@
 
   <main class="page-content">
     <h2>Work</h2>
-    <p>Academic research and modeling projects, in one place.</p>
+    <p>My primary academic research project.</p>
 
     <div class="placeholder-note">
-      Links below are placeholders (<code>#</code>). Drop a PDF/deck in
+      Link below is a placeholder (<code>#</code>). Drop the report PDF in
       <code>assets/</code> and point <code>href</code> at it, or link
       out to an external copy.
     </div>
 
-    <div class="project-grid">
-      <article class="card">
-        <span class="card-tag">Research &middot; Group Project</span>
-        <h3>Rebalance, Don't De-Risk: Retirement Portfolio Simulation Under Market Regime Uncertainty</h3>
-        <span class="meta">Aug. 2026</span>
-        <p>A two-state Markov-chain Monte Carlo model calibrated on 154 years (1871&ndash;2026) of Shiller and FRED data, simulating 10,000 thirty-year retirement paths across calm and stressed market regimes. Annual rebalancing cut portfolio failure risk from 7.5% to 6.5% and improved worst-case outcomes by 55%, validated against Bengen (1994) and the Trinity Study (1998).</p>
-        <a class="card-link" href="#">View &rarr;</a>
-      </article>
-
-      <article class="card">
-        <span class="card-tag">Research</span>
-        <h3>Exploring Arbitrage in Foreign Exchange Markets with Python and Linear Optimization</h3>
-        <span class="meta">Nov. 2025 &ndash; Jan. 2026</span>
-        <p>A linear programming model identifying arbitrage opportunities across five major currencies, using the Simplex Method to solve for profitable 2&ndash;5 currency trading sequences. Built in Python with NumPy and itertools to automate the search across multi-currency exchange matrices.</p>
-        <a class="card-link" href="#">View &rarr;</a>
-      </article>
-
-      <article class="card">
-        <span class="card-tag">Research</span>
-        <h3>Population Dynamics Modeling</h3>
-        <span class="meta">Sep. 2025 &ndash; Nov. 2025</span>
-        <p>Compared four growth-rate specifications &mdash; constant, linear proportional, logarithmic, and quadratic &mdash; for modeling yeast biomass growth via differential equations, estimating parameters with linear regression and non-linear least squares, and evaluating fit with RMSE, MeAE, and MaAE.</p>
-        <a class="card-link" href="#">View &rarr;</a>
-      </article>
-    </div>
+    <article class="card">
+      <span class="card-tag">Research &middot; Group Project</span>
+      <h3>Rebalance, Don't De-Risk: Lessons from 10,000 Simulated Retirements Under Market Regime Uncertainty</h3>
+      <span class="meta">18 pages &middot; Aug. 2026 &middot; with Filip Zaleski &amp; Lena Ho, NYU Stern</span>
+      <p>A Monte Carlo simulation of 30-year retirements driven by a two-state (calm/stressed) Markov regime-switching model, fit to 154 years of US market data (1872&ndash;2025), comparing asset allocation, withdrawal, and rebalancing policies on failure risk and sustainable withdrawal rate. The baseline 60/40 portfolio with a 4% withdrawal fails in 6.5% of retirements &mdash; closely reproducing the classic &ldquo;4% rule&rdquo;&mdash;and annual rebalancing beats buy-and-hold (6.5% vs. 7.5%), while an age-based glide path doesn't help (6.9%) because it de-risks after the period of greatest danger has passed.</p>
+      <a class="card-link" href="#">View &rarr;</a>
+    </article>
   </main>
 
   <footer class="site-footer">
