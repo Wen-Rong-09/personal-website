@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name</title>
+  <meta name="description" content="Personal website of Your Name." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Your Name</h1>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="index.html" aria-current="page">home</a></li>
+        <li><a href="about.html">bio / cv</a></li>
+        <li><a href="projects.html">projects</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <p>
+        <!-- PLACEHOLDER: replace with your own one-paragraph bio. -->
+        One or two sentences about who you are, what you study or do,
+        and what you're working toward. Mention a couple of interests
+        outside of work too &mdash; this paragraph is the first thing
+        people read, so keep it personal and specific.
+      </p>
+    </section>
+
+    <hr class="divider" />
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-label">
+          <span>Featured</span>
+          <div class="carousel-controls">
+            <button type="button" data-carousel-prev aria-label="Previous">&#8249;</button>
+            <button type="button" data-carousel-next aria-label="Next">&#8250;</button>
+          </div>
+        </div>
+
+        <div class="carousel" data-carousel data-carousel-track>
+          <article class="card">
+            <span class="card-tag">Project</span>
+            <h3>Project Title One</h3>
+            <span class="meta">Short detail, e.g. page count or date</span>
+            <p>One or two sentences describing this project, paper, or piece of work.</p>
+            <a class="card-link" href="projects.html">View project &rarr;</a>
+          </article>
+
+          <article class="card">
+            <span class="card-tag">Project</span>
+            <h3>Project Title Two</h3>
+            <span class="meta">Short detail</span>
+            <p>One or two sentences describing this project, paper, or piece of work.</p>
+            <a class="card-link" href="projects.html">View project &rarr;</a>
+          </article>
+
+          <article class="card">
+            <span class="card-tag">Project</span>
+            <h3>Project Title Three</h3>
+            <span class="meta">Short detail</span>
+            <p>One or two sentences describing this project, paper, or piece of work.</p>
+            <a class="card-link" href="projects.html">View project &rarr;</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-label">
+          <span>Glimpses</span>
+          <div class="carousel-controls">
+            <button type="button" data-carousel-prev aria-label="Previous">&#8249;</button>
+            <button type="button" data-carousel-next aria-label="Next">&#8250;</button>
+          </div>
+        </div>
+
+        <div class="gallery" data-carousel data-carousel-track>
+          <div class="gallery-item placeholder">Add a photo<br />assets/img/photo-1.jpg</div>
+          <div class="gallery-item placeholder">Add a photo<br />assets/img/photo-2.jpg</div>
+          <div class="gallery-item placeholder">Add a photo<br />assets/img/photo-3.jpg</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>&copy; <span id="year"></span> Your Name</span>
+      <nav>
+        <a href="mailto:you@example.com">Email</a>
+        <a href="https://www.linkedin.com/in/your-handle" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/wenrong-09" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bio / CV &mdash; Your Name</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Your Name</h1>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="about.html" aria-current="page">bio / cv</a></li>
+        <li><a href="projects.html">projects</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page-content">
+    <h2>About</h2>
+    <p>
+      <!-- PLACEHOLDER: expand on your home-page intro here. -->
+      A longer version of your bio: where you studied, what you're doing now,
+      and what you're aiming for next. Two or three paragraphs is plenty.
+    </p>
+    <p>
+      Outside of work: list a few hobbies or interests, the same way you
+      would in conversation &mdash; sports, music, travel, whatever is true
+      for you.
+    </p>
+
+    <h2>Education</h2>
+    <p><strong>Degree, Institution</strong> &mdash; Year(s)</p>
+    <p><strong>Degree, Institution</strong> &mdash; Year(s)</p>
+
+    <h2>Experience</h2>
+    <p><strong>Role, Organization</strong> &mdash; Year(s)<br />One line on what you did.</p>
+    <p><strong>Role, Organization</strong> &mdash; Year(s)<br />One line on what you did.</p>
+
+    <h2>Resume</h2>
+    <div class="placeholder-note">
+      Drop a PDF at <code>assets/cv.pdf</code> and link it here, e.g.
+      <code>&lt;a href="assets/cv.pdf"&gt;Download CV&lt;/a&gt;</code>.
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>&copy; <span id="year"></span> Your Name</span>
+      <nav>
+        <a href="mailto:you@example.com">Email</a>
+        <a href="https://www.linkedin.com/in/your-handle" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/wenrong-09" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
