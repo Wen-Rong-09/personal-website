@@ -7,22 +7,26 @@ headline, a featured-work carousel, and a photo gallery.
 ## Structure
 
 ```
-index.html       Home page (intro, featured carousel, glimpses gallery)
-about.html        Bio / CV
-projects.html      Full project list
-contact.html       Contact links
+index.html       Home / Bio (intro, education, experience, skills)
+work.html        Work (academic/research projects)
+me.html         Me (travel and sports, with photo + video placeholders)
 assets/css/style.css  All styling
 assets/js/main.js    Carousel behavior
-assets/img/        Put your photos here
+assets/img/        Photos go here
+assets/video/      Video clips go here
 ```
+
+Contact links (email, GitHub) live in the footer on every page — there's
+no separate contact page.
 
 ## Editing
 
-Everything is placeholder content right now. Search each HTML file for
-`PLACEHOLDER` comments and the generic text ("Your Name", `you@example.com`,
-`Project Title One`, etc.) and replace with your own. Photos go in
-`assets/img/` — swap the `.gallery-item.placeholder` divs in `index.html`
-for `<img src="assets/img/your-photo.jpg" alt="...">`.
+Search each HTML file for `placeholder-note` blocks and generic text
+(e.g. the tag-list "Add more…" entry on `me.html`) and replace with your
+own. Photos go in `assets/img/` — swap a `.gallery-item.placeholder` div
+for `<img src="assets/img/your-photo.jpg" alt="...">`. Video clips go in
+`assets/video/` — swap a `.video-item.placeholder` div for
+`<video src="assets/video/your-clip.mp4" controls></video>`.
 
 ## Running locally
 

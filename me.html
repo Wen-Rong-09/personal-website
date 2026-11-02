@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Me &mdash; Wen Rong</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Wen Rong</h1>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="work.html">work</a></li>
+        <li><a href="me.html" aria-current="page">me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page-content">
+    <h2>Travel</h2>
+    <p>I've traveled to 40+ countries across Asia, Europe, and beyond &mdash; a few of the places below, with more to add.</p>
+
+    <div class="placeholder-note">
+      Replace the tags below with your actual countries/cities, and
+      swap the gallery placeholders further down for real trip photos
+      in <code>assets/img/</code>.
+    </div>
+
+    <ul class="tag-list">
+      <li>China</li>
+      <li>Germany</li>
+      <li>United Kingdom</li>
+      <li>United States</li>
+      <li>Add more&hellip;</li>
+    </ul>
+
+    <div class="gallery" data-carousel data-carousel-track style="margin-top: 2rem;">
+      <div class="gallery-item placeholder">Trip photo<br />assets/img/trip-1.jpg</div>
+      <div class="gallery-item placeholder">Trip photo<br />assets/img/trip-2.jpg</div>
+      <div class="gallery-item placeholder">Trip photo<br />assets/img/trip-3.jpg</div>
+    </div>
+
+    <h2>Sports</h2>
+    <p>Competitive at a few things, casual about the rest.</p>
+
+    <ul class="tag-list">
+      <li>Table Tennis &middot; USATT 1800+</li>
+      <li>Tennis</li>
+      <li>Badminton</li>
+      <li>Basketball</li>
+      <li>Soccer</li>
+      <li>Swimming</li>
+    </ul>
+
+    <div class="placeholder-note">
+      Drop clips in <code>assets/video/</code> and swap a placeholder
+      below for <code>&lt;video src="assets/video/your-clip.mp4"
+      controls&gt;&lt;/video&gt;</code>, or embed a YouTube link with an
+      <code>&lt;iframe&gt;</code>.
+    </div>
+
+    <div class="video-grid">
+      <div class="video-item placeholder">Table tennis clip<br />assets/video/table-tennis.mp4</div>
+      <div class="video-item placeholder">Tennis clip<br />assets/video/tennis.mp4</div>
+      <div class="video-item placeholder">Another clip<br />assets/video/clip-3.mp4</div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>&copy; <span id="year"></span> Wen Rong</span>
+      <nav>
+        <a href="mailto:wr2247@stern.nyu.edu">Email</a>
+        <a href="https://github.com/wenrong-09" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
