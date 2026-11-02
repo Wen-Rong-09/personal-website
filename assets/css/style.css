@@ -334,6 +334,31 @@ a {
   margin-top: 0;
 }
 
+.page-content--wide {
+  max-width: 1000px;
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.two-col .col h2:first-child {
+  margin-top: 0;
+}
+
+.video-grid--single-col {
+  grid-template-columns: 1fr;
+}
+
+@media (max-width: 760px) {
+  .two-col {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
+
 .page-content p {
   margin: 0.75rem 0;
 }
